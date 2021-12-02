@@ -23,7 +23,7 @@ on:
         #description: "是否需要发布到Release?"
         description: "是否需要发布到Release? (不发布也可以到Artifacts下载)"
         # Default value if no value is explicitly provided
-        default: 'yes'
+        default: 'false'
         # Input has to be provided for the workflow to run
         required: false
 
