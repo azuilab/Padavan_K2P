@@ -2,13 +2,12 @@
 
 name: Padavan固件编译
 
- schedule:
-    - cron: 0 8 * * 5
-
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
-  workflow_dispatch:
+   schedule:
+    - cron: 0 8 * * 5
+   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
       production:
