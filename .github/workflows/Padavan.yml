@@ -6,7 +6,7 @@ name: Padavan固件编译
 # or API.
 on:
    schedule:
-    - cron: 05 19 * * 4
+    - cron: 00 05 * * 5
    workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
